@@ -1,0 +1,230 @@
+[
+    {
+        "key": "None",
+        "animationPath": null
+    },
+    {
+        "key": "Main",
+        "animationPath": "MainSceneAnimation.json"
+    },
+    {
+        "key": "NPCScene",
+        "animationPath": "NPCSceneAnimation.json"
+    },
+    {
+        "key": "Status",
+        "animationPath": "Novice/NoviceStatusAnimation.json"
+    },
+    {
+        "key": "Inventory",
+        "animationPath": "InventorySceneAnimation.json"
+    },
+    {
+        "key": "Shop",
+        "animationPath": "ShopSceneAnimation.json"
+    },
+    {
+        "key": "StatUp",
+        "animationPath": "StatUpSceneAnimation.json"
+    },
+    {
+        "key": "DungeonSelect",
+        "animationPath": "DungeonSelectSceneAnimation.json"
+    },
+    {
+        "key": "Rest",
+        "animationPath": "RestSceneAnimation.json"
+    },
+    {
+        "key": "SkillManager",
+        "animationPath": "SkillManagerSceneAnimation.json"
+    },
+    {
+        "key": "MonsterDie",
+        "animationPath": "Monster/MonsterDieAnimation.json"
+    },
+    {
+        "key": "CharacterDie",
+        "animationPath": "CharacterDieAnimation.json"
+    },
+    {
+        "key": "파이터Status",
+        "animationPath": "Fighter/FighterStatusAnimation.json"
+    },
+    {
+        "key": "위자드Status",
+        "animationPath": "Wizard/WizardStatusAnimation.json"
+    },
+    {
+        "key": "레인저Status",
+        "animationPath": "Ranger/RangerStatusAnimation.json"
+    },
+    {
+        "key": "시프Status",
+        "animationPath": "Thief/ThiefStatusAnimation.json"
+    },
+    {
+        "key": "파이터Idle",
+        "animationPath": "Fighter/FighterIdleAnimation.json"
+    },
+    {
+        "key": "파이터Idle",
+        "animationPath": "Fighter/FighterIdleAnimation.json"
+    },
+    {
+        "key": "파이터Attack",
+        "animationPath": "Fighter/FighterAttackAnimation.json"
+    },
+    {
+        "key": "위자드Idle",
+        "animationPath": "Wizard/WizardIdleAnimation.json"
+    },
+    {
+        "key": "위자드Attack",
+        "animationPath": "Wizard/WizardAttackAnimation.json"
+    },
+    {
+        "key": "레인저Idle",
+        "animationPath": "Ranger/RangerIdleAnimation.json"
+    },
+    {
+        "key": "레인저Attack",
+        "animationPath": "Ranger/RangerAttackAnimation.json"
+    },
+    {
+        "key": "시프Idle",
+        "animationPath": "Thief/ThiefIdleAnimation.json"
+    },
+    {
+        "key": "시프Attack",
+        "animationPath": "Thief/ThiefAttackAnimation.json"
+    },
+    {
+        "key": "Idle",
+        "animationPath": "Novice/NoviceIdleAnimation.json"
+    },
+    {
+        "key": "Attack",
+        "animationPath": "Novice/NoviceAttackAnimation.json"
+    },
+    {
+        "key": "SlimeDefend",
+        "animationPath": "Monster/SlimeDefendAnimation.json"
+    },
+    {
+        "key": "SlimeIdle",
+        "animationPath": "Monster/SlimeIdleAnimation.json"
+    },
+    {
+        "key": "GoblinDefend",
+        "animationPath": "Monster/GoblinDefendAnimation.json"
+    },
+    {
+        "key": "GoblinIdle",
+        "animationPath": "Monster/GoblinIdleAnimation.json"
+    },
+    {
+        "key": "WolfDefend",
+        "animationPath": "Monster/WolfDefendAnimation.json"
+    },
+    {
+        "key": "WolfIdle",
+        "animationPath": "Monster/WolfIdleAnimation.json"
+    },
+    {
+        "key": "ZombieDefend",
+        "animationPath": "Monster/ZombieDefendAnimation.json"
+    },
+    {
+        "key": "ZombieIdle",
+        "animationPath": "Monster/ZombieIdleAnimation.json"
+    },
+    {
+        "key": "OrcDefend",
+        "animationPath": "Monster/OrcDefendAnimation.json"
+    },
+    {
+        "key": "OrcIdle",
+        "animationPath": "Monster/OrcIdleAnimation.json"
+    },
+    {
+        "key": "SkeletonDefend",
+        "animationPath": "Monster/SkeletonDefendAnimation.json"
+    },
+    {
+        "key": "SkeletonIdle",
+        "animationPath": "Monster/SkeletonIdleAnimation.json"
+    },
+    {
+        "key": "MimicDefend",
+        "animationPath": "Monster/MimicDefendAnimation.json"
+    },
+    {
+        "key": "MimicIdle",
+        "animationPath": "Monster/MimicIdleAnimation.json"
+    },
+    {
+        "key": "DevilDefend",
+        "animationPath": "Monster/DevilDefendAnimation.json"
+    },
+    {
+        "key": "DevilIdle",
+        "animationPath": "Monster/DevilIdleAnimation.json"
+    },
+    {
+        "key": "SuccubusDefend",
+        "animationPath": "Monster/SuccubusDefendAnimation.json"
+    },
+    {
+        "key": "SuccubusIdle",
+        "animationPath": "Monster/SuccubusIdleAnimation.json"
+    },
+    {
+        "key": "DoppelgangerDefend",
+        "animationPath": "Monster/DoppelgangerDefendAnimation.json"
+    },
+    {
+        "key": "DoppelgangerIdle",
+        "animationPath": "Monster/DoppelgangerIdleAnimation.json"
+    },
+    {
+        "key": "GolemDefend",
+        "animationPath": "Monster/GolemDefendAnimation.json"
+    },
+    {
+        "key": "GolemIdle",
+        "animationPath": "Monster/GolemIdleAnimation.json"
+    },
+    {
+        "key": "ChimeraDefend",
+        "animationPath": "Monster/ChimeraDefendAnimation.json"
+    },
+    {
+        "key": "ChimeraIdle",
+        "animationPath": "Monster/ChimeraIdleAnimation.json"
+    },
+    {
+        "key": "DrakeDefend",
+        "animationPath": "Monster/DrakeDefendAnimation.json"
+    },
+    {
+        "key": "DrakeIdle",
+        "animationPath": "Monster/DrakeIdleAnimation.json"
+    },
+    {
+        "key": "DragonDefend",
+        "animationPath": "Monster/DragonDefendAnimation.json"
+    },
+    {
+        "key": "DragonIdle",
+        "animationPath": "Monster/DragonIdleAnimation.json"
+    },
+    {
+        "key": "DevilKingDefend",
+        "animationPath": "Monster/DevilKingDefendAnimation.json"
+    },
+    {
+        "key": "DevilKingIdle",
+        "animationPath": "Monster/DevilKingIdleAnimation.json"
+    }
+]

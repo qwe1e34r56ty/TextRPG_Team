@@ -1,0 +1,56 @@
+﻿[
+    {
+        "Id": 1,
+        "Name": "초보자의 숲",
+        "RecommendedDefense": 5,
+        "MonsterTypes": [ "슬라임", "고블린", "늑대" ],
+        "MonsterCountMin": 1,
+        "MonsterCountMax": 3,
+        "Description": "초보자에게 적합한 평화로운 숲"
+    },
+    {
+        "Id": 2,
+        "Name": "저주의 동굴",
+        "RecommendedDefense": 15,
+        "MonsterTypes": [ "고블린", "오크", "좀비" ],
+        "MonsterCountMin": 2,
+        "MonsterCountMax": 4,
+        "Description": "어둠이 감도는 음산한 동굴"
+    },
+    {
+        "Id": 3,
+        "Name": "망자의 묘지",
+        "RecommendedDefense": 25,
+        "MonsterTypes": [ "좀비", "스켈레톤", "도플갱어" ],
+        "MonsterCountMin": 2,
+        "MonsterCountMax": 4,
+        "Description": "망령들이 배회하는 저주받은 묘지"
+    },
+    {
+        "Id": 4,
+        "Name": "악마의 던전",
+        "RecommendedDefense": 40,
+        "MonsterTypes": [ "미믹", "데빌", "서큐버스" ],
+        "MonsterCountMin": 3,
+        "MonsterCountMax": 5,
+        "Description": "악마들이 점령한 지하 감옥"
+    },
+    {
+        "Id": 5,
+        "Name": "폭풍의 고원",
+        "RecommendedDefense": 60,
+        "MonsterTypes": [ "골렘", "키메라", "드레이크" ],
+        "MonsterCountMin": 3,
+        "MonsterCountMax": 5,
+        "Description": "거센 바람이 부는 험준한 고지대"
+    },
+    {
+        "Id": 6,
+        "Name": "용의 둥지",
+        "RecommendedDefense": 100,
+        "MonsterTypes": [ "드레이크", "용", "마왕" ],
+        "MonsterCountMin": 1,
+        "MonsterCountMax": 3,
+        "Description": "전설의 용이 서식하는 위험한 지역"
+    }
+]

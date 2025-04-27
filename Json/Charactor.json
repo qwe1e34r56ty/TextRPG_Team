@@ -1,0 +1,46 @@
+[
+    {
+        "job": "파이터",
+        "addStr": 100,
+        "addDex": 50,
+        "addattack ": 30,
+        "addguard": 30,
+        "addMaxHp": 200,
+        "addPoint": 10,
+        "skillList": [],
+        "GetFighter": true
+    }
+    {
+        "job": "레인저",
+        "addStr": 50,
+        "addDex": 100,
+        "addattack ": 40,
+        "addguard": 5,
+        "addMaxHp": 100,
+        "addPoint": 10,
+        "addcritical ": 15,
+        "skillList": [],
+        "GetRanger": true        
+    },
+    {
+        "job": "위자드",
+        "addInt": 100,
+        "addLuk": 50,
+        "addattack ": 60,
+        "addMaxMp": 200,
+        "addPoint": 10,
+        "skillList": [],
+        "GetWizard": true
+    }
+    {
+        "job": "시프",
+        "addLuk": 100,
+        "addDex": 50,
+        "addattack ": 40,
+        "addMaxHp": 100,
+        "addPoint": 10,
+        "addcritical ": 25,
+        "skillList": [],
+        "GetThief": true
+    }
+]

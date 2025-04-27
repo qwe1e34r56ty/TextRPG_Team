@@ -1,0 +1,332 @@
+[
+    {
+        "key": "StatUp",
+        "next": [
+            "Main",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None"
+        ]
+    },
+    {
+        "key": "Sell",
+        "next": [
+            "Shop",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None"
+        ]
+    },
+    {
+        "key": "DungeonSelect",
+        "next": [
+            "Main",
+            "BattleScene",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None"
+        ]
+    },
+    {
+        "key": "BattleScene",
+        "next": [
+            "DungeonFail",
+            "DungeonClear",
+            "None",
+            "BattleScene_Skill",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None"
+        ]
+    },
+    {
+        "key": "DungeonClear",
+        "next": [
+            "DungeonSelect",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None"
+        ]
+    },
+    {
+        "key": "DungeonFail",
+        "next": [
+            "DungeonSelect",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None"
+        ]
+    },
+    {
+        "key": "Main",
+        "next": [
+            "None",
+            "Status",
+            "Inventory",
+            "Shop",
+            "DungeonSelect",
+            "Rest",
+            "SkillManager",
+            "StatUp",
+            "NPCScene",
+            "None"
+        ]
+    },
+    {
+        "key": "Rest",
+        "next": [
+            "Main",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None"
+        ]
+    },
+    {
+        "key": "Status",
+        "next": [
+            "Main",
+            "GetJob",
+            "SkillEquip",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None"
+        ]
+    },
+    {
+        "key": "GetJob",
+        "next": [
+            "Status",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None"
+        ]
+    },
+    {
+        "key": "Inventory",
+        "next": [
+            "Main",
+            "Wear",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None"
+        ]
+    },
+    {
+        "key": "Wear",
+        "next": [
+            "Inventory",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None"
+        ]
+    },
+    {
+        "key": "Shop",
+        "next": [
+            "Main",
+            "Buy",
+            "Sell",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None"
+        ]
+    },
+    {
+        "key": "Buy",
+        "next": [
+            "Shop",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None"
+        ]
+    },
+    {
+        "key": "Skill",
+        "next": [
+            "Main",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None"
+        ]
+    },
+    {
+        "key": "SkillManager",
+        "next": [
+            "Main",
+            "SkillLearn",
+            "SkillEquip",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None"
+        ]
+    },
+    {
+        "key": "SkillLearn",
+        "next": [
+            "SkillManager",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None"
+        ]
+    },
+    {
+        "key": "SkillEquip",
+        "next": [
+            "SkillManager",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None"
+        ]
+    },
+    {
+        "key": "BattleScene_Skill",
+        "next": [
+            "BattleScene",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None"
+        ]
+    },
+    {
+        "key": "NPCScene",
+        "next": [
+            "Main",
+            "QuestScene",
+            "QuestScene",
+            "QuestScene",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None"
+        ]
+    },
+    {
+        "key": "QuestScene",
+        "next": [
+            "Main",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None"
+        ]
+    },
+    {
+        "key": "QuestClearScene",
+        "next": [
+            "Main",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None"
+        ]
+    }
+]
