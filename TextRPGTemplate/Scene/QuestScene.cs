@@ -47,8 +47,8 @@ namespace TextRPG.Scene
                 ((LogView)viewMap[ViewID.Log]).AddLog("퀘스트가 수락되었습니다.");
                 ((LogView)viewMap[ViewID.Log]).AddLog($"구해야 할 아이템 : {quest.questitem}({quest.dropitemcount}/{quest.questfigure})");
                 gameContext.isaccept = true;
-                Thread.Sleep(1000);
-                return SceneID.Main;
+                //Thread.Sleep(1000);
+                return SceneID.NPCScene;
             }
             else if (i == 0)
             {
@@ -56,6 +56,7 @@ namespace TextRPG.Scene
                 {
                     convertSceneAnimationPlay(sceneNext.next![i]);
                 }
+                convertSceneAnimationPlay(sceneNext.next![i]);
                 return sceneNext.next![i];
             }
             else

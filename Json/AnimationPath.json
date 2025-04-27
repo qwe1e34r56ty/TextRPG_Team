@@ -52,6 +52,22 @@
         "animationPath": "Fighter/FighterStatusAnimation.json"
     },
     {
+        "key": "파이터Signature",
+        "animationPath": "Fighter/FighterSignatureAnimation.json"
+    },
+    {
+        "key": "위자드Signature",
+        "animationPath": "Wizard/WizardSignatureAnimation.json"
+    },
+    {
+        "key": "레인저Signature",
+        "animationPath": "Ranger/RangerSignatureAnimation.json"
+    },
+    {
+        "key": "시프Signature",
+        "animationPath": "Thief/TheifSignatureAnimation.json"
+    },
+    {
         "key": "위자드Status",
         "animationPath": "Wizard/WizardStatusAnimation.json"
     },

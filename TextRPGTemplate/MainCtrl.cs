@@ -88,6 +88,10 @@ namespace TextRPG
             }
 
             //정적 데이터 불러오기
+            Dictionary<string, string?> animationPathMap = new();
+            initanimationPathMap(animationPathMap);
+            Dictionary<string, Animation?> animationMap = new();
+            initanimationMap(animationPathMap, animationMap);
             Dictionary<string, AView> viewMap = new();
             initViewMap(viewMap);
             Dictionary<string, SceneText> sceneTextMap = new();
@@ -107,10 +111,6 @@ namespace TextRPG
             var dungeonDataJson = File.ReadAllText(JsonPath.dungeonDataJsonPath);
             var dungeonData = JsonSerializer.Deserialize<List<DungeonData>>(dungeonDataJson);
 
-            Dictionary<string, string?> animationPathMap = new();
-            initanimationPathMap(animationPathMap);
-            Dictionary<string, Animation?> animationMap = new();
-            initanimationMap(animationPathMap, animationMap);
 
             AnimationPlayer animationPlayer = new AnimationPlayer();
             // 몬스터 데이터 로드 추가
@@ -160,9 +160,7 @@ namespace TextRPG
                     animationMap[pair.Key] = null;
                     continue;
                 }
-                Debug.Write(animationPathMap[pair.Key]);
                 animationJson = File.ReadAllText(animationPathMap[pair.Key]!);
-                Debug.WriteLine(animationJson);
                 animationMap[pair.Key] = JsonSerializer.Deserialize<Animation>(animationJson)!;
             }
         }

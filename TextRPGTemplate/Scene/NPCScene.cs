@@ -69,8 +69,14 @@ namespace TextRPG.Scene
             }
             else if (gameContext.isaccept == true)
             {
-                Thread.Sleep(1000);
-                return SceneID.Main;
+                if(i == 0)
+                {
+                    convertSceneAnimationPlay(sceneNext.next![i]);
+                    return sceneNext.next![i];
+                }
+                //Thread.Sleep(1000);
+                ((LogView)viewMap[ViewID.Log]).AddLog("이미 수락한 퀘스트가 있습니다.");
+                return SceneID.Nothing;
             }
 
             convertSceneAnimationPlay(sceneNext.next![i]);

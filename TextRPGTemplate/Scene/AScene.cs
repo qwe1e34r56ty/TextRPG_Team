@@ -130,17 +130,6 @@ namespace TextRPG.Scene
             BattleAnimationPos battleAnimationPos = gameContext.battleAnimationPos[gameContext.currentBattleMonsters.Count - 1];
 
             Animation animation;
-            if (gameContext.ch.hp > 0)
-            {
-                animation = gameContext.animationMap[$"{gameContext.ch.job}Idle"]!.DeepCopy();
-            }
-            else
-            {
-                animation = gameContext.animationMap["CharacterDie"]!.DeepCopy();
-            }
-            animation.x[0] += battleAnimationPos.characterPosX;
-            animation.y[0] += battleAnimationPos.characterPosY;
-            animationsList.Add(animation);
 
             for (int i = 0; i < gameContext.currentBattleMonsters.Count; i++)
             {
@@ -158,6 +147,18 @@ namespace TextRPG.Scene
                 animation.frames = animation.frames[0..1];
                 animationsList.Add(animation);
             }
+            if (gameContext.ch.hp > 0)
+            {
+                animation = gameContext.animationMap[$"{gameContext.ch.job}Idle"]!.DeepCopy();
+            }
+            else
+            {
+                animation = gameContext.animationMap["CharacterDie"]!.DeepCopy();
+            }
+            animation.x[0] += battleAnimationPos.characterPosX;
+            animation.y[0] += battleAnimationPos.characterPosY;
+            animationsList.Add(animation);
+
             animationsArray = animationsList.ToArray();
 
             gameContext.animationPlayer.play(animationsArray, (SpriteView)viewMap[ViewID.Sprite]);
@@ -184,13 +185,15 @@ namespace TextRPG.Scene
             Animation[] animationsArray = animationsList.ToArray();
             BattleAnimationPos battleAnimationPos = gameContext.battleAnimationPos[gameContext.currentBattleMonsters.Count - 1];
 
-            Animation animation = gameContext.animationMap[$"{gameContext.ch.job}Signature"]!.DeepCopy();
-            animation.x[0] += battleAnimationPos.characterPosX;
-            animation.y[0] += battleAnimationPos.characterPosY;
-            animationsList.Add(animation);
-            animationsArray = animationsList.ToArray();
+            if (gameContext.animationMap.ContainsKey($"{gameContext.ch.job}Signature")){
+                Animation animation = gameContext.animationMap[$"{gameContext.ch.job}Signature"]!.DeepCopy();
+                animation.x[0] += battleAnimationPos.characterPosX;
+                animation.y[0] += battleAnimationPos.characterPosY;
+                animationsList.Add(animation);
+                animationsArray = animationsList.ToArray();
 
-            gameContext.animationPlayer.play(animationsArray, (SpriteView)viewMap[ViewID.Sprite]);
+                gameContext.animationPlayer.play(animationsArray, (SpriteView)viewMap[ViewID.Sprite]);
+            }
         }
 
         public void battleAttackAnimationPlay(MonsterData target)
@@ -199,13 +202,7 @@ namespace TextRPG.Scene
             Animation[] animationsArray = animationsList.ToArray();
             BattleAnimationPos battleAnimationPos = gameContext.battleAnimationPos[gameContext.currentBattleMonsters.Count - 1];
 
-            Animation animation = gameContext.animationMap[$"{gameContext.ch.job}Attack"]!.DeepCopy();
-            for (int i = 0; i < animation.frames.Length; i++)
-            {
-                animation.x[i] += battleAnimationPos.characterPosX;
-                animation.y[i] += battleAnimationPos.characterPosY;
-            }
-            animationsList.Add(animation);
+            Animation animation;
 
             for (int i = 0; i < gameContext.currentBattleMonsters.Count; i++)
             {
@@ -228,6 +225,13 @@ namespace TextRPG.Scene
                 }
                 animationsList.Add(animation);
             }
+            animation = gameContext.animationMap[$"{gameContext.ch.job}Attack"]!.DeepCopy();
+            for (int i = 0; i < animation.frames.Length; i++)
+            {
+                animation.x[i] += battleAnimationPos.characterPosX;
+                animation.y[i] += battleAnimationPos.characterPosY;
+            }
+            animationsList.Add(animation);
             animationsArray = animationsList.ToArray();
 
             gameContext.animationPlayer.play(animationsArray, (SpriteView)viewMap[ViewID.Sprite]);

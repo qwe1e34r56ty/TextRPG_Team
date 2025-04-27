@@ -4,7 +4,7 @@
         "characterPosX": 3,
         "characterPosY": 18,
         "monsterPosX": [
-            65
+            55
         ],
         "monsterPosY": [
             0
@@ -15,12 +15,12 @@
         "characterPosX": 3,
         "characterPosY": 18,
         "monsterPosX": [
-            55,
-            75
+            45,
+            65
         ],
         "monsterPosY": [
             0,
-            2
+            1
         ]
     },
     {
@@ -43,16 +43,35 @@
         "characterPosX": 3,
         "characterPosY": 18,
         "monsterPosX": [
-            35,
-            55,
-            75,
-            95
+            45,
+            65,
+            85,
+            55
         ],
         "monsterPosY": [
             0,
+            1,
             2,
-            4,
-            6
+            25
+        ]
+    },
+    {
+        "monsterCount": 5,
+        "characterPosX": 3,
+        "characterPosY": 18,
+        "monsterPosX": [
+            45,
+            65,
+            85,
+            55,
+            75
+        ],
+        "monsterPosY": [
+            0,
+            1,
+            2,
+            25,
+            26
         ]
     }
 ]
